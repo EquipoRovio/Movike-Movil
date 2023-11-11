@@ -1,0 +1,57 @@
+name: movike_3
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_staggered_grid_view: ^0.4.1
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Cousine
+      fonts: 
+        - asset: assets/fonts/CousineBold.ttf
+          weight: 700
+        - asset: assets/fonts/CousineRegular.ttf
+          weight: 400
+    - family: Amiri
+      fonts: 
+        - asset: assets/fonts/AmiriBold.ttf
+          weight: 700
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Amaranth
+      fonts: 
+        - asset: assets/fonts/AmaranthBold.ttf
+          weight: 700
+    - family: Salsa
+      fonts: 
+        - asset: assets/fonts/SalsaRegular.ttf
+          weight: 400
+    - family: Scada
+      fonts: 
+        - asset: assets/fonts/ScadaRegular.ttf
+          weight: 400
+        - asset: assets/fonts/ScadaBold.ttf
+          weight: 700
+    - family: Secular One
+      fonts: 
+        - asset: assets/fonts/SecularOneRegular.ttf
+          weight: 400
+    - family: Crete Round
+      fonts: 
+        - asset: assets/fonts/CreteRoundRegular.ttf
+          weight: 400
